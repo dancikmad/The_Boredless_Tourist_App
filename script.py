@@ -29,7 +29,7 @@ def get_traveler_location(traveler):
 
 
 # Create list of attractins for - Visiting Interesting Places feature
-attractions = [[] for destination in destinations]
+attractions = [[] for _ in destinations]
 
 
 def add_attraction(destination, attraction):
